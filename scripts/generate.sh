@@ -2,10 +2,10 @@ export BESU_DIR=$PWD
 
 cd ./genesis-generator
 
-sudo chown -R $USER ./networkFiles
-rm -rf ./networkFiles
+# sudo chown -R $USER ./networkFiles
+# rm -rf ./networkFiles
 
-docker-compose up
+# docker-compose up
 
 # cd $BESU_DIR
 
