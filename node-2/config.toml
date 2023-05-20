@@ -1,7 +1,7 @@
 # Valid TOML config file
 data-path="/usr/app/data" # Path
 
-bootnodes=["enode://3860a38a2d265a64b56a62fca0f6e038059e551c304dbd58213993093f9b47b0691d9eeb7a17200f8a14c71f6074734330e70571034645ecba7b4bf97613a471@127.0.0.1:30303"]
+bootnodes=["enode://543212b97e9da2fac17cca62c67c2909648f5e9e0247fd161622926865fbe25d75f35f0e34e9faaf7f8ce2b11e5fc3b7764b37dbaccca482a3084790eaee84ba@127.0.0.1:30303"]
 
 rpc-http-enabled=true
 rpc-http-api=["ETH","NET","IBFT"]

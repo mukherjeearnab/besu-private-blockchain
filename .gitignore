@@ -1,3 +1,5 @@
 node-*/data/*
 
 !node-*/data/*.gitkeep
+!node-*/data/key.pub
+!node-*/data/key

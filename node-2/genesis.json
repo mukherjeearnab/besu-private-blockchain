@@ -1,9 +1,9 @@
 {
   "config" : {
-    "chainId" : 15,
+    "chainId" : 11101999,
     "muirglacierblock" : 0,
     "ibft2" : {
-      "blockperiodseconds" : 2,
+      "blockperiodseconds" : 1,
       "epochlength" : 30000,
       "requesttimeoutseconds" : 4
     }
@@ -17,7 +17,22 @@
   "alloc" : {
     "1D0a9BCD31fEE726726d5Fa3f9971Bd2e38215d0" : {
       "balance" : "10000000000000000000000000000"
+    },
+    "fe3b557e8fb62b89f4916b721be55ceb828dbd73" : {
+      "privateKey" : "8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
+      "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance" : "0xad78ebc5ac6200000"
+    },
+    "627306090abaB3A6e1400e9345bC60c78a8BEf57" : {
+      "privateKey" : "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
+      "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance" : "90000000000000000000000"
+    },
+    "f17f52151EbEF6C7334FAD080c5704D77216b732" : {
+      "privateKey" : "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
+      "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance" : "90000000000000000000000"
     }
   },
-  "extraData" : "0xf87ea00000000000000000000000000000000000000000000000000000000000000000f8549456621fd8188f75fa4c17c4d66cbe1f2ffebb6b5494cf1bc9844d3e3f9caa4069c0477a23bec71e5e5394ccecc8b4527c3916a9714b40788f2bb19da0137f94bdf6179ee4762a64789e44c9cc3490389ffdecc6808400000000c0"
+  "extraData" : "0xf87ea00000000000000000000000000000000000000000000000000000000000000000f854945b007c911889b6bd3b0463b8794c9f4ca269f28f946b5f0e2318a78b0ad3342a07cfe43305d0d5092f94067303fe1f8bd14c703d82f18f66d7af6ff7b46d9489b021a777eb6cb91bff66934af426ef19b4a6c6808400000000c0"
 }
